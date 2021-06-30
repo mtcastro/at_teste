@@ -3,7 +3,7 @@ Aplicação que monitora o status de um conjunto de urls e notifica quando fica 
 
 
 Este projeto foi desenvolvido em Laravel/php, utilizando Filas para processar as consultar das URLs 
-em paralelo sem comprometer a performasse do sistema e Cron para solicitar o processo de consultas
+em paralelo sem comprometer a performance do sistema e Cron para solicitar o processo de consultas
 das URLs em intervalos programado.
 
 Para executar esse projeto você tem que:
@@ -28,5 +28,5 @@ Para executar esse projeto você tem que:
     */30 * * * * php (diretório raiz do projeto)/artisan consultar
 
 Abra o o painel em seu navegador http://127.0.0.1:8000/ e adicione as url a ser monitorada. Na sessão notificação
-você deve configurar o email para receber as notificações. O painel não atualiza os dados das consultas automáticamente,
-é preciso atualizar a pagina para acompanhar as modificações no painel.
+você deve configurar o email para receber as notificações. O painel não atualiza os dados das consultas automaticamente,
+é preciso atualizar a página para acompanhar as modificações no painel.
