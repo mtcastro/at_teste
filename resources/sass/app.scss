@@ -1,0 +1,102 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+
+
+body {
+	background-color: #efefef;
+}
+
+// Navbar
+
+.site-navbar {
+	background: #6535d8 !important;
+	box-shadow: 1px 4px 4px rgba(0,0,0,0.3);
+    //z-index: 2;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	font-size: 12pt;
+	color: white!important;
+}
+
+.site-navbar .navbar-brand img {
+	height: 50px;
+	width: auto
+}
+
+.nav-link{
+	font-size: .975rem !important;
+}
+// Button
+
+
+
+// Footer
+.footer-titulo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	margin-bottom: 20px;
+	color: white;
+	font-weight: bold;	
+}
+
+.img-footer img{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.logo-footer{
+	width: 160px; 
+}
+
+@media (max-width: 768px){
+	.img-footer img{
+		width: 45px;
+		height: 40px;
+		margin-right: 5px;
+	}
+	
+	#coluna-footer{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.logo-footer{
+		width: 130px; 
+		height: 107px;
+		margin-right: 30px;
+	}
+}
+
+footer{
+	position: relative;
+	bottom: 0;
+}
+ 
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+ 
+ 
+.footer-distributed{
+	background-color: #264e34;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	// font: bold 16px sans-serif;
+	padding: 50px 50px 20px 50px;
+	margin-top: 80px;
+	/* padding-bottom: 20px; */
+}
+
+.footer-distributed ul {
+	color: white;
+	list-style-type: none;
+}
+ 
